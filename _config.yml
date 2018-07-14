@@ -35,12 +35,6 @@ navbar-links:
     
   Web del autor: "http://felipefcor.github.io"
 
-  About Me: "Sobre mí"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
