@@ -52,7 +52,7 @@ $.ajax('miservicio/nombredeusuario', {
 
 **Objeto nativo _XMLHttpRequest_**
 ```
-var xhr = new _XMLHttpRequest_();
+var xhr = new XMLHttpRequest();
 xhr.open('GET', 'miservicio/nombredeusuario?id=unicoid');
 xhr.onload = function() {
     if (xhr.status === 200) {
@@ -104,7 +104,7 @@ $.ajax('miservicio/nombredeusuario?' + $.param({id: 'unicoid'}), {
 
 **Objeto nativo _XMLHttpRequest_**
 ```
-ar nuevoNombre = 'Juan Perez',
+var nuevoNombre = 'Juan Perez',
     xhr = new XMLHttpRequest();
 
 xhr.open('POST', 'miservicio/nombredeusuario?unicoid');
