@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Cómo modificar el DOM con Javascript
 ---
 
 ###  **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
