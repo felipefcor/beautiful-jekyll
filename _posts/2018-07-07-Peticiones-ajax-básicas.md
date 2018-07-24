@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peticiones Ajax básicas
-tags: [javascript, jquery, ajax, requests, xmlhttprequest]
+tags: [javascript, jquery, vanillajs, ajax, requests, xmlhttprequest]
 ---
 ### **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
 Esto es una traducción de un [artículo de David Walsh](https://davidwalsh.name/XMLHttpRequest) acerca de este tipo de peticiones.
