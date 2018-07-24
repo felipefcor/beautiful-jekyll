@@ -3,9 +3,7 @@ layout: post
 title: Cómo modificar el DOM con Javascript
 ---
 ###  **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
-
 Modificar el DOM es un conocimiento básico y un conocimiento muy potente para un programador frontend.
-
 >Antes de nada, voy a explicar brevemente qué es el DOM.
 
 >El DOM es lo que conecta las páginas web con scripts o lenguajes de programación, en este caso con Javascript. El DOM es una interfaz de programación para los documentos HTML y XML que facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido.
