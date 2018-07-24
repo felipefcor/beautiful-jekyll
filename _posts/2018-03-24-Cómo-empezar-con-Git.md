@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo empezar con Git
-tags: git recursos cursos
+tags: [git, comandos, recursos, cursos]
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 2**](http://MentoringJS.com)
 
