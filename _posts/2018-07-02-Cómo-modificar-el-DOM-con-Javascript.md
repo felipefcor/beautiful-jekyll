@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo modificar el DOM con Javascript
-[tags: javascript, DOM, vanillajs]
+tags: [javascript, DOM, vanillajs]
 ---
 ###  **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
 Modificar el DOM es un conocimiento básico y un conocimiento muy potente para un programador frontend.
