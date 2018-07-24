@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo funciona la terminal (SHELL)
-tags:shell terminal linux comandos 
+tags:[shell, terminal, linux, comandos]
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 4**](http://MentoringJS.com)
 ### ¿Qué es la shell?
