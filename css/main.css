@@ -141,6 +141,7 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+    transform: scale(0.5);
 }
 .navbar-custom .navbar-brand-logo img {
   height: 50px;
