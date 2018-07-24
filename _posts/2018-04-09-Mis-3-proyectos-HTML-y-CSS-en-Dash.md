@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 3 proyectos HTML5 y CSS en Dash
+tags: javascript html css
 ---
 ## **[Aprende Javascript con MentoringJS - Pretraining Step 3](http://MentoringJS.com)**
 Primero de todo, me he intentado familiarizar con la [página dash](https://dash.generalassemb.ly/). No ha sido muy difícil ya que al autenticarte ya te aparecen directamente los proyectos y es muy sencillo de empezar a practicar.  

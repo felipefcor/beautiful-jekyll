@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cómo funciona Internet y qué significa programar
+tags: internet DNS navegadores browsers programar
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 3**](http://MentoringJS.com)
 

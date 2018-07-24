@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cómo funciona la terminal (SHELL)
+tags:shell terminal linux comandos 
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 4**](http://MentoringJS.com)
 ### ¿Qué es la shell?
@@ -114,6 +115,6 @@ El parámetro -l muestra información de los archivos listados, tal como propiet
     Este comando permite cambiar el grupo de un archivo o directorio.
 
 
-Existen muchos más comandos y trabajos que se pueden llevar a cabo en sistemas Linux. Para ampliar toda esta información se puede consultar la siguiente web: http://linuxcommand.org/lc3_learning_the_shell.php
+Existen muchos más comandos y trabajos que se pueden llevar a cabo en sistemas Linux. Para ampliar toda esta información se puede consultar la [siguiente web.](http://linuxcommand.org/lc3_learning_the_shell.php)
 
 ---
