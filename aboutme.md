@@ -2,6 +2,7 @@
 layout: page
 title: Sobre mí
 subtitle: Algunas cosas sobre mí
+bigimg: "/img/yellow.jpeg"
 ---
 
 Me llamo Felipe Fernández y soy técnico informático.
