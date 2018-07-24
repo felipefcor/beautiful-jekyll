@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como aprender a hacer debugging
-tags: javascript debugging 
+tags: [javascript, debugging, navegadores, browsers] 
 ---
 ## [Artículo de Julie Pagano](http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/)
 ## [**Como aprender JavaScript -  Debugging - Pretraining Step 5**](http://MentoringJS.com)
