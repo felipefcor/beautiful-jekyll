@@ -2,10 +2,7 @@
 layout: post
 title: Peticiones Ajax básicas
 ---
-
 ### **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
-
-<br>
 Esto es una traducción de un [artículo de David Walsh](https://davidwalsh.name/XMLHttpRequest) acerca de este tipo de peticiones.
 
 Hay un gran número de tareas comunes frontend que muchos de nosotros no hemos tocado en profundidad, APIs engorrosas debido a que nuestros queridos frameworks de Javascript nos han proporcionado maneras más sencillas de trabajar con ellas. Esto lo trata Walsh en _[How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)_, _[Do a Basic HTTP Request with Node.js](https://davidwalsh.name/nodejs-http-request)_.
