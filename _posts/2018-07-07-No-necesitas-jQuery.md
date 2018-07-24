@@ -3,10 +3,6 @@ layout: post
 title: ¡No necesitas jQuery! 
 ---
 ### **[Aprende Javascript con MentoringJS - Step 7](http://MentoringJS.com)**
-
-
-<br>
-
 Esto es una traducción del artículo [You Don't Need jQuery!](https://blog.garstasio.com/you-dont-need-jquery/about/) de Ray Nicholus.
 
 
