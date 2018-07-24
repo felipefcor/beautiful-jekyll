@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo empezar con Javascript
-tags: javascript recursos cursos
+tags: [javascript, recursos, cursos]
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 2**](http://MentoringJS.com)
 
