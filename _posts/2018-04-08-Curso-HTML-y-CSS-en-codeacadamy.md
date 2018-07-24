@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Curso HTML y CSS en Codeacademy
-tags: html css
+tags: [html, css, codeacademy]
 ---
 ## [**Aprende Javascript con MentoringJS - Pretraining Step 3**](http://MentoringJS.com)
 ----
