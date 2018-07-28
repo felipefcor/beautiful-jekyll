@@ -140,7 +140,7 @@ cosa.addEventListener('click', callback)
 function callback () {
   console.log('cosa has sido pinchada!')
   // elimina el oyente de eventos
-  thing.removeEventListener('click', callback)
+  cosa.removeEventListener('click', callback)
 }
 ```
 <br>
