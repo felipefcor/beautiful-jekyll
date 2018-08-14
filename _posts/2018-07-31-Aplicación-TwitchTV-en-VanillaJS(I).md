@@ -4,7 +4,7 @@ title: Aplicación Twitch TV en VanillaJS (II)
 tags: [javascript, jquery, vanillajs, ajax, requests, xmlhttprequest, twitchtv, DOM]
 ---
 
-### [**Aprende Javascript con MentoringJS - Step 7 **](http://MentoringJS.com)
+### [Aprende Javascript con MentoringJS - Step 7 ](http://MentoringJS.com)
 ----
 
 > Aviso para navegantes:
