@@ -86,7 +86,7 @@ social-network-links:
   twitter: felipefcor_
 #  reddit: yourname
 #  google-plus: +DeanAttali
-  linkedin: felipe-f-78100515b
+#  linkedin: felipe-f-78100515b
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -133,7 +133,7 @@ url-pretty: "felipefcor.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "https-felipefcor-github-io"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
