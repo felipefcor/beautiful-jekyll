@@ -105,14 +105,14 @@ channels.forEach(function(channel) {
 
 En esta primera parte hay varias partes diferenciadas, que voy a diseccionar para poder explicarlas mejor:
 
-###### Parte 1
+##### Parte 1
 ```
 channels.forEach(function(channel) {}
 ```
 
 Con el método [_forEach_](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach) conseguimos ejecutar la función indicada(_channel_) una vez por cada elemento el array _channels_.
 
-###### Parte 2
+##### Parte 2
 ```
 function makeURL(type, name) {
             return 'https://api.twitch.tv/kraken/' + type + '/' + name + '?client_id=7e0leu1c5jgpvj7iviwcij03omfiqt';
@@ -121,7 +121,7 @@ function makeURL(type, name) {
 La función _makeURL_ nos sirve para hacer la petición a la API de Twitch pasándole dos parámetros, el tipo (_type_) y el nombre (_name_). La función devuelve la url de la API de Twitch sumándole los dos parámetros y un ID de cliente que es el cliente público que te da la aplicación de Twitch una vez te das de alta en la [parte de desarrolladores de Twitch](https://dev.twitch.tv/docs/authentication).
 
 
-###### Parte 3
+##### Parte 3
 ```
 var xmlhttpStreams = new XMLHttpRequest();
 var url = makeURL("streams", channel);
@@ -161,7 +161,7 @@ Dentro del if que comprueba el estado de la petición se crean otros if/else par
 
 La última parte es para indicar cómo se hace la petición al servidor para extraer los datos. En este caso, se hace llamando a dos funciones, _request.open_ y _request.send_. En la primera se indica que será un petición GET, se indica una URL (que está en la almacenada en la variable _url_) y por último se añade la opción true que quiere decir que la petición será asíncrona. En la función _send_ se indica que se envíe la petición usada por GET.
 
-###### Parte 4
+##### Parte 4
 ```
 var xmlhttpChannels = new XMLHttpRequest();
 var url = makeURL("channels", channel)
@@ -199,7 +199,7 @@ En los ifs siguientes se interactua con los datos conseguidos de la petición a 
 La última parte es para indicar cómo se hace la petición al servidor para extraer los datos. En este caso, se hace llamando a dos funciones, _request.open_ y _request.send_. En la primera se indica que será un petición GET, se indica una URL (que está en la almacenada en la variable _url_) y por último se añade la opción true que quiere decir que la petición será asíncrona. En la función _send_ se indica que se envíe la petición usada por GET.
 
 
-###### Parte 5
+##### Parte 5
 ```
 var div = document.createElement("div");
 

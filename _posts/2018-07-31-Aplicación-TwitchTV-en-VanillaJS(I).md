@@ -198,4 +198,5 @@ Si, en cambio, el status es _online_ se le pasa otro bucle a los canales que est
 El último else-if es igual que el anterior pero a la inversa, en función de si el status es _offline_.
 
 Por último, se elimina el el evento _click_.
----------------
+
+
