@@ -3,10 +3,7 @@ layout: post
 title: Aplicación Twitch TV en VanillaJS (II)
 tags: [javascript, jquery, vanillajs, ajax, requests, xmlhttprequest, twitchtv, DOM]
 ---
-
 ### [Aprende Javascript con MentoringJS - Step 7 ](http://MentoringJS.com)
-----
-
 > Aviso para navegantes:
 
 > Este programa es una primera versión de una aplicación TwitchTV. La aplicación hace peticiones a la API de Twitch y te devuelve los canales que están online y offline.
