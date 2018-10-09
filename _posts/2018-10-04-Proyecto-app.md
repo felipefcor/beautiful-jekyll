@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototipado de una app para móvil hecha con Ratchet
-tags: [htmls, css, javascript, Ratchet, app]
+tags: [html, css, javascript, Ratchet, app]
 ---
 ### [Aprende Javascript con MentoringJS - Step 9 ](http://MentoringJS.com)
 
