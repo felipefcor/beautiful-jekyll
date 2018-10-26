@@ -5,11 +5,11 @@ tags: [mentor, aprendizaje, learning]
 ---
 ### [Aprende Javascript con MentoringJS - Step 10 ](http://MentoringJS.com)
 
-En este artículo voy a intentar explicar mis pensamientos y sensaciones sobre el proceso de autoaprendizaje que estoy llevando a cabo desde hace 7 meses con la [ayuda de un mentor](https://twitter.com/mentoringjs).
+En este artículo voy a intentar explicar mis pensamientos y sensaciones sobre el proceso de autoaprendizaje que estoy llevando a cabo desde hace 8 meses con la [ayuda de un mentor](https://twitter.com/mentoringjs).
 
 Una vez tomé la decisión de aprender a programar, me faltaba el cómo. Estuve mirando _bootcamps_, tanto online como en persona; cursos, recursos online muy interesantes. Pero nada se ajustaba a mis necesidades. Entonces encontré el [proyecto](http://MentoringJS.com) navegando por Internet y me resultó muy interesante ya que ofrecía lo que necesitaba, una guía.
 
-Después de 7 meses puedo decir que este programa ha sido beneficioso para mi progreso por varios motivos:
+Después de 8 meses puedo decir que este programa ha sido beneficioso para mi progreso por varios motivos:
 
 - En primer lugar, cuando empiezas a aprender o a hacer cualquier actividad que no habías hecho antes siempre es necesario tener alguna **guía o ayuda** de alguien. Esto, a grandes rasgos es lo que hace un mentor ya que pone a disposición de otras personas todo su conocimiento y experiencia.
 
