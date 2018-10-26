@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Prototipado de una app para móvil hecha con Ratchet
-tags: [html, css, javascript, Ratchet, app]
+title: Proceso de aprendizaje con un mentor
+tags: [mentor, aprendizaje, learning]
 ---
 ### [Aprende Javascript con MentoringJS - Step 10 ](http://MentoringJS.com)
 
