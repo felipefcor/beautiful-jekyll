@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Aprendiendo Reactjs. Siguiendo el tutorial de React.express
-tags: [Reactjs, node.js, npm, webpack, babel, javascript, html, css]
+title: Aprendiendo React. Siguiendo el tutorial de React.express
+tags: [React, node.js, npm, webpack, babel, javascript, html, css]
 ---
 ### [Aprende Javascript con MentoringJS - Step 10 ](http://MentoringJS.com)
 En este artículo voy a mostrar todos los ejercicios del tutorial de [react.express](http://www.react.express/) y voy a analizar todos los ejemplos explicando qué significa cada parte de código.
