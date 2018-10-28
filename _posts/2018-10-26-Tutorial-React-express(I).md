@@ -260,7 +260,7 @@ En este ejemplo se incluye un componente Contador (_Counter_) que mantiene el ti
 
 Este ejercicio añade varios puntos que son importantes a la hora de entender React, como por ejemplo el estado (_state_). En los componentes se les puede pasar [_state_ y _props_](https://reactjs.org/docs/state-and-lifecycle.html). Los segundos serían como los argumentos de las funciones de javascript, mientras que los primeros serían como el estado interno del componente que, eventualmente, puede cambiar.
 
-Lo primero que hace el componente _Counter_ es añadir un estado con una variable a 0.
+Lo primero que hace el componente _Counter_ es añadir el método _state_ con una propiedad, en este caso _count_. Esta propiedad _count_ se inicializa con un valor de 0.
 >El _state_ lo define el usuario y debe ser un objeto Javascript.
 
 ```
@@ -298,7 +298,7 @@ render() {
 }
 ```
 Después se añade un método llamado _render()_ donde va el contenido del componente.
-Ahí se declaran tres variables, _count_ y _color_ y _size_. La primera se iguala a _this.state_ ya que es la que irá cambiando el estado dentro del componte. Las segundas se iguala a _this.props_ ya que recibirá dos parámetros de fuera del Componente con ciertos valores que se devolverán en el apartado _return_.
+Ahí se declaran tres variables, _count_ y _color_ y _size_. La primera se iguala a _this.state_ para poder utilizarla directamente como {count} sin necesidad de escribir todas las veces _this.state.count_. Las segundas se iguala a _this.props_ ya que recibirá dos parámetros de fuera del Componente con ciertos valores que se devolverán en el apartado _return_.
 
 ```
 class App extends Component {
@@ -321,7 +321,7 @@ class App extends Component {
 }
 ```
 
-En el componente _App_ se añaden ciertos estilos en _render_ y después se devuelve un _div_ con esos estilos y llamando al contador del componente _Counter_ con dos argumentos, el color y el tamaño.
+En el componente _App_ se añaden ciertos estilos en _render_ con el método _styel_ y después se devuelve un _div_ este método y llamando al contador del componente _Counter_ con dos argumentos, el color y el tamaño.
 
 Al final se renderiza este componente _App_.
 ```
@@ -389,9 +389,9 @@ render(<App />, document.querySelector('#app'))
 
 ```
 
-En este ejemplo se construye un botón en el que, al pinchar en él, cambia de color de fondo de manera aleatoria. Esto se hace pasando estilos CSS a un DOM component.
+En este ejemplo se construye un botón en el que, al pinchar en él, cambia de color de fondo de manera aleatoria. Esto se hace pasando estilos CSS a un _DOM component_.
 
-Yendo al código, lo primero más significativo es la variable randomColor, que almacena una función dónde, utilizando la función _Math.random_, se genera un número aleatorio entre 0 y 1 con decimales. Después, la función _toString_ la convierte a Hexadecimal y, por último, la función _substr_ devuelve 6 caracterés de ese string. Con eso y el # inicial se consigue un color en Hexadecimal.
+Yendo al código, lo primero y más significativo es la variable _randomColor_, que almacena una función dónde, utilizando la función _Math.random_, se genera un número aleatorio entre 0 y 1 con decimales. Después, la función _toString_ la convierte a Hexadecimal y, por último, la función _substr_ devuelve 6 caracterés de ese string. Con eso y el # inicial se consigue un color en Hexadecimal.
 
 ```
 const randomColor = () => '#' + Math.random().toString(16).substr(-6)
@@ -414,7 +414,7 @@ class Card extends Component {
   }
 }
 ```
-El componente _Card_ en el método _render_ añade los estilos CSS y también acepta un argumento del color de fondo. En la parte del _return_ retorna la variable _styles_ con el contenido de CSS antes definido y también el argumento recibido. Esto lo hace con _this.props.children_ que es un _props_ especial, típicamente definido por las tags hijas en una expresión JSX y que hace referencia al _this.props.color_ del _render_.
+El componente _Card_ en el método _render_ añade los estilos CSS con el método _style_ y también acepta un argumento del color de fondo como una propiedad de dicho método. En la parte del _return_ retorna el método _style_ con todas las propiedad CSS antes definido y también el argumento recibido. Esto lo hace con _this.props.children_ que es un _props_ especial, típicamente definido por las tags hijas en una expresión JSX y que hace referencia al _this.props.color_ del método _style_.
 
 ```
 state = {
@@ -427,10 +427,10 @@ render() {
 	const {color} = this.state
 
 ```
-El componente _App_ establece el color de fondo inicial, inicializándolo con _state_.
+El componente _App_ establece el color de fondo inicial, inicializándolo con el método _state_.
 Después se añade una función _randomizeColor_ donde se cambia el color con _this.setState_ y aplicando a la variable _color_ la función _randomColor_ para que se cambie aleatoriamente el color de fondo.
 
-En la parte de _render_ se establece el nuevo color modificado y se asigna a la variable _color_ y se añade un estilo CSS.
+En la parte de _render_ se iguala la variable _color_  a _this.state_ para poder utilizarla directamente como {color} sin necesidad de escribir todas las veces _this.state.color_ y también se añade un método _style_ con una propiedad CSS.
 
 Posteriormente, en _return_ es dónde se renderiza todo.
 ```
