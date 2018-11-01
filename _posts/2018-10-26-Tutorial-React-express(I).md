@@ -61,7 +61,7 @@ En los tres pasos hay que hacer cambios en ciertos archivos para que la configur
 
 <br>
 
-### Índice de ejercicios
+### Índice de ejercicios<a name="idindex"></a>
 
 1. [ReactDOM](#id1)
 2. [DOM Components](#id2)
