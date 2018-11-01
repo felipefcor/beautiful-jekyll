@@ -115,6 +115,7 @@ La última línea sirve para _renderizar_ la variable _element_ en el nodo DOM.
 render(element, node)
 ```
 
+[Volver al Índice](#idindex)
 
 <br>
 **2. DOM Components** <a name="id2"></a>
@@ -204,6 +205,7 @@ La clase devuelve los estilos y también el color de fondo que deberán recibir 
 
 El valor que recibirá el color de fondo de la clase se le pasa en la variable _element_. Ahí, se llama a la clase _Card_ dos veces, cada una con un color de fondo diferente. Y esto es lo que se renderiza al final.
 
+[Volver al Índice](#idindex)
 
 <br>
 **4. Component API** <a name="id4"></a>
@@ -329,6 +331,7 @@ render(<App />, document.querySelector('#app'))
 
 ```
 
+[Volver al Índice](#idindex)
 
 <br>
 **5. Inline Styles** <a name="id5"></a>
@@ -450,6 +453,7 @@ Aquí se puede ver que se establece el estilo inicial del componente _App_. Desp
 
 Al final se renderiza este componente _App_.
 
+[Volver al Índice](#idindex)
 
 <br>
 **6. CSS-in-JS** <a name="id6"></a>
