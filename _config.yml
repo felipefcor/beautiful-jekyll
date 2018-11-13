@@ -32,7 +32,6 @@ navbar-links:
     - Twitter: "https://twitter.com/felipefcor_"
   
   Tags: "tags"
-  Sobre mí: "aboutme"
   Recursos:
     - Aprende Javascript con mentoringjs: "http://www.mentoringjs.com/"
     - Cursos en Udemy: "https://www.udemy.com/" 
@@ -40,6 +39,7 @@ navbar-links:
     - Cursos de Wes Bos: "https://wesbos.com/courses/"
     - Cursos y tutoriales de Zell Liew: "https://zellwk.com"   
     - Cursos de Mosh Hamedani: "https://programmingwithmosh.com/"
+  Sobre mí: "aboutme"
 
 
 
