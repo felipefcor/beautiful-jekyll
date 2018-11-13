@@ -16,8 +16,7 @@ baseurl: ""
 # Name of website
 
 title: Blog de Felipe Fernández	
-title-img: "/img/home-solid.svg"
-
+title-img: "/img/home-solid.svg width:5050
 
 # Short description of your site
 description: Blog con artículos de programación en mi periplo con @mentoringjs
@@ -28,6 +27,11 @@ description: Blog con artículos de programación en mi periplo con @mentoringjs
 # List of links in the navigation bar
 navbar-links:
 
+  Actividad: 
+    - Github: "https://github.com/felipefcor"
+    - Twitter: "https://twitter.com/felipefcor_"
+  
+  Tags: "tags"
   Sobre mí: "aboutme"
   Recursos:
     - Aprende Javascript con mentoringjs: "http://www.mentoringjs.com/"
@@ -194,6 +198,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - favicon.ico
 
 # prose.io config
 prose:
