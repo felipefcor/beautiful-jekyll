@@ -176,7 +176,7 @@ onAddTodo = (text) => {
   })
 }
 ```
-Esta función sirve para añadir un nuevo elemento al array _todos_. La función tiene un parámetro _text_ que será lo que se añada al array. Esto se hace con _this.setState_ y modificando el array _todos_ añadiendo _text_. Esto vemos que se hace con el [_spread operator_](http://www.react.express/array_spread), característica de ES2015.
+Esta función sirve para añadir un nuevo elemento al array _todos_. La función tiene un parámetro _text_ que será lo que se añada al array. Esto se hace con _this.setState_ y modificando el array _todos_ añadiendo _text_. Esto vemos que se hace con el [_spread operator_](http://www.react.express/array_spread), característica de ES6.
 
 La siguiente función, _onRemoveTodo_ es la encargada de borrar un elemento de la lista del ToDo.
 ```
