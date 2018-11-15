@@ -101,7 +101,7 @@ Este _import_ se realiza para importar la librería necesaria para **_renderizar
 
 
 
-Después se declaran dos variables con const ([en ES2015](http://www.react.express/block_scoped_declarations)).
+Después se declaran dos variables con const ([en ES6](http://www.react.express/block_scoped_declarations)).
 La primera, _node_ se hace para seleccionar un _nodo_ del DOM en nuestra _app_ para renderizar el contenido. Esto se hace seleccionando el atributo _app_ que está añadido en el index.html
 
 La segunda variable, _element_, se añade contenido en formato [JSX](http://www.react.express/jsx).
