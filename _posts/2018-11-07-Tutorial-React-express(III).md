@@ -6,16 +6,16 @@ tags: [React, node.js, npm, webpack, babel, javascript, html, css]
 ### [Aprende Javascript con MentoringJS - Step 10 ](http://MentoringJS.com)
 Esta es la tercera parte de mi revisión del tutorial de [react-express](http://www.react.express/).
 
-[La primera parte se puede ver en mi blog](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)/#idindex)
+[La primera parte se puede ver en mi blog](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)
 
-[La segunda parte se puede ver en mi blog](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II)/#idindex)
+[La segunda parte se puede ver en mi blog](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II)
 
 
 ### Índice de ejercicios<a name="idindex"></a>
 
-[Ejercicios del 1 al 6](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I))
+[Ejercicios del 1 al 6](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)/#idindex)
 
-[Ejercicios del 7 al 14](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II))
+[Ejercicios del 7 al 14](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II)/#idindex)
 
 
 <br>
