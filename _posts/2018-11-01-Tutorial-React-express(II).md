@@ -11,7 +11,7 @@ Esta es la segunda parte de mi revisión del tutorial de [react-express](http://
 
 ### Índice de ejercicios<a name="idindex"></a>
 
-[Ejercicios del 1 al 6](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I))
+[Ejercicios del 1 al 6](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)/#idindex)
 
 7.[Event Handling I](#id7)<br>
 8.[Event Handling II](#id8)<br>

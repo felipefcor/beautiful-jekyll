@@ -6,9 +6,9 @@ tags: [React, node.js, npm, webpack, babel, javascript, html, css]
 ### [Aprende Javascript con MentoringJS - Step 10 ](http://MentoringJS.com)
 Esta es la tercera parte de mi revisión del tutorial de [react-express](http://www.react.express/).
 
-[La primera parte se puede ver en mi blog](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)).
+[La primera parte se puede ver en mi blog](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)/#idindex)
 
-[La segunda parte se puede ver en mi blog](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II))
+[La segunda parte se puede ver en mi blog](https://felipefcor.github.io/2018-11-01-Tutorial-React-express(II)/#idindex)
 
 
 ### Índice de ejercicios<a name="idindex"></a>
@@ -451,5 +451,5 @@ Finalmente se añade un objeto _styles_ con ciertos estilos CSS.
 ---
 
 
-Con este artículo finalizo la revisión del tutoriol de React.express.
+Con este artículo finalizo la revisión del tutorial de React.express.
 En siguientes posts seguiré con React a tope. Stay tuned!
