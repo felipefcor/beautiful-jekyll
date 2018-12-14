@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototipado de mi proyecto en React
-tags: [html, css, javascript, React]
+tags: [html, css, javascript, node, npm, React]
 ---
 ### [Aprende Javascript con MentoringJS - Step 11 ](http://MentoringJS.com)
 En esta serie de artículos voy a explicar el prototipado de mi proyecto de aplicación web pero basado en React y la descomposición en Componentes que he decidido hacer  y el por qué de ellos. Cualquier consejo o corrección es bienvenido.
