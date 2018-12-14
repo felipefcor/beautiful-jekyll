@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototipado de mi proyecto en React
+title: Prototipado de mi proyecto en React I
 tags: [html, css, javascript, node, npm, React]
 ---
 ### [Aprende Javascript con MentoringJS - Step 11 ](http://MentoringJS.com)
