@@ -19,6 +19,14 @@ Antes de empezar a explicar cómo he ido realizando esta aplicación, quería in
 
 ---
 
+**ACTUALIZACIÓN**
+> Después de pensar y repensar cómo podría hacer para poder hacer el índex algo dinámico sin muchas modificaciones con eventos y demás, llegué a la conclusión que se podía hacer con [React Router](https://github.com/ReactTraining/react-router).
+
+> Además, encontré varios recursos para adaptar mi código y el que me resultó más claro y funcional fue el de la web [Kirupa.com](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm).
+
+> Esto, ha hecho cambiar un poco el código que había hecho, por lo que voy a resaltar el contenido que he modificado y voy a explicar por qué otro lo he sustituido. Indicar también que solo se han visto modificados dos archivos y componentes: App y Home. Además, se ha instalado el paquete de npm para React Router.
+
+
 Empezando con el código, en primer lugar, se tiene que realizar la configuración del entorno para poder crear una aplicación React. En esto seguí los pasos que ya realicé en mi [último proyecto React sobre la revisión de React express](https://felipefcor.github.io/2018-10-26-Tutorial-React-express(I)).
 
 Para crear e inicializar una app React y poder empezar a programar hacemos:
@@ -36,6 +44,15 @@ El segundo ha sido [Font Awesome](https://fontawesome.com/?from=io). Este paquet
 npm i --save @fortawesome/fontawesome-svg-core \
 npm i --save @fortawesome/free-solid-svg-icons \
 npm i --save @fortawesome/react-fontawesome
+```
+
+**ACTUALIZACIÓN**
+
+Este [paquete es necesario instalarlo](https://reacttraining.com/react-router/web/guides/quick-start) para poder utilizar React Router.
+
+```
+npm install react-router-dom
+
 ```
 
 Una vez se configura el entorno empezamos con la configuración de los archivos básicos, como el index, etc.
@@ -90,6 +107,8 @@ Por último, se renderiza el componente _App_ en el atributo _app_ del _div_ del
 
 **App.js**
 
+**EL CÓDIGO ANTERIOR DE ESTE ARCHIVO ERA:**
+
 ```
 import React, { Component } from 'react';
 import Index from './components/home';
@@ -117,7 +136,6 @@ import Gallery from './components/Gallery';
   }
 
 ```
-
 Este es el componente principal, desde dónde se hacen todos los _imports_ de los demás componentes.
 
 Antes de seguir, voy a hacer una pequeña aclaración.
@@ -130,10 +148,33 @@ Antes de seguir, voy a hacer una pequeña aclaración.
 
 > Huelga decir que el resultado no es el más vistoso posible, ya que aparece todo seguido y sin una lógica, pero eso intentaré ajustarlo cuando se añadan los efectos.
 
+
 En la parte principal hay una clase _App_ que se exporta al componente _App_ anterior y que es la que renderiza todos los demás componentes.
 
 
+**EL NUEVO CÓDIGO CON LOS CAMBIOS CON REACT ROUTER ES EL SIGUIENTE:**
+```
+import React, { Component } from 'react';
+import Index from './components/home';
+
+
+  export default class App extends Component {
+    render() {
+        return (
+          <div>
+             <Index />
+         </div>
+
+      )
+    }
+  }
+```
+Como se ve, básicamente el cambio que ha habido es que la llamada a todos los componentes se hace ahora desde el archivo Home.js, por lo que solo se importa el archivo indicado y también solo se llama al componente Index de dicho archivo en el _return_ que se llamará desde App.js.
+
+
 **Home.js**
+
+**EL CÓDIGO ANTERIOR DE ESTE ARCHIVO ERA:**
 
 Como este componente contiene bastante información iré poniendo el código en pequeñas partes. Para empezar, los _imports_.
 ```
@@ -145,6 +186,7 @@ import Styles from './Styles'
 En este componente se importa el componente React y otros personalizados. El primero es _Navbar_ que es un componente que renderiza la barra de navegación en todos los componentes. Más adelante, al revisar el propio componente, lo explicaré en detalle.
 
 El segundo, es otro componente personalizado, pero este es sobre los estilos que he ido utilizando en todos los demás componentes.
+
 ```
 export default  class Index extends Component {
     render() {
@@ -257,6 +299,149 @@ Por último, se llama a los otros componentes que mostrarían el apartado de bú
 <Language />                 
 
 ```
+
+**EL NUEVO CÓDIGO CON LOS CAMBIOS CON REACT ROUTER ES EL SIGUIENTE:**
+
+```
+import React, { Component } from 'react';
+import NavBar from './NavBar';
+import Styles from './Styles'
+import { BrowserRouter as HashRouter, Route, NavLink } from "react-router-dom";
+import Services from './Services';
+import AboutUs from './AboutUs';
+import Appointment from './Appointment';
+import Blog from './Blog';
+import Gallery from './Gallery';
+```
+En este archivo se añaden todos los _imports_ de los demás componentes, ya que ahora se van a renderizar aquí y no en el archivo App.js.
+
+Además, se añade el _import_ de React Router, tal y como se indica en la documentación y en el [artículo que he utilizado para adaptar el código](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm).
+
+El resto de cambios se introducen en el _return_ del componente:
+```
+return (
+
+
+            <div>
+                <NavBar icontwice= "search" title= "Centro de Fisioterapia" icon="cog" />
+                <HashRouter>
+                  <div className="card">
+
+                    <Styles
+                    imageIndex ="true"
+                    src={imgIndex}
+                    >                              
+
+                   </Styles>
+
+
+
+
+                     <ul className="list-unstyled list-group ">
+                      {list.map(option =>
+                      <li
+                        key={option}                                       
+                        className="list-group-item list-group-item-primary"
+                      >
+
+                      <Styles title="true">
+
+
+                        <NavLink to={option.url}>{option.name}</NavLink>
+
+                      </Styles>
+
+
+                      </li>) }
+
+                    </ul>  
+
+                    <div className="content">
+
+                      <Route path="/Services" component={Services}/>
+                      <Route path="/AboutUs" component={AboutUs}/>
+                      <Route path="/Appointment" component={Appointment}/>
+                      <Route path="/Blog" component={Blog}/>
+                      <Route path="/Gallery" component={Gallery}/>
+
+                   </div>
+
+              </div>
+
+            </HashRouter>
+       </div>  
+```
+
+Para empezar, se añaden los tags de _HashRouter_ necesarios para crear la estructura de links y acceso a las rutas de los componentes indicados.
+
+Un [ejemplo de dicha estructura sería](https://reacttraining.com/react-router/web/example/basic):
+```
+function BasicExample() {
+  return (
+    <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/topics">Topics</Link>
+          </li>
+        </ul>
+
+        <hr />
+
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/topics" component={Topics} />
+      </div>
+    </Router>
+  );
+}
+```
+
+Yo lo he adaptado tal y como indicaba el artículo enlazado y he utilizado _HashRouter_ y _NavLink_ en vez de _Router_ y _Link_. En mi código lo he adaptado en el mapeo del listado que hacía y ahí he añadido el tag de _NavLink_ con el contenido dinámico del mapeo del array.
+```
+<ul className="list-unstyled list-group ">
+ {list.map(option =>
+ <li
+   key={option}                                       
+   className="list-group-item list-group-item-primary"
+ >
+
+ <Styles title="true">
+
+
+   <NavLink to={option.url}>{option.name}</NavLink>
+
+ </Styles>
+
+
+ </li>) }
+
+</ul>  
+```
+Esta parte no ha cambiado mucho, ya que se ha cambiado el tag _h2_ por el _NavLink_.
+
+Más abajo, he añadiendo el código necesario que se utilizar para indicar que cuándo se pinche en un enlace de los anteriores se vaya a un componente de una ruta indicada. Esto se hace con el código siguiente:
+```
+<div className="content">
+
+  <Route path="/Services" component={Services}/>
+  <Route path="/AboutUs" component={AboutUs}/>
+  <Route path="/Appointment" component={Appointment}/>
+  <Route path="/Blog" component={Blog}/>
+  <Route path="/Gallery" component={Gallery}/>
+
+</div>
+```
+
+> Y esto es todo. Con estas pocas modificaciones el resultado ha quedado algo más dinámico que pronto se podrá ver en un _deploy_ que voy a realizar.
+
+---
 
 El resultado quedaría así:
 
