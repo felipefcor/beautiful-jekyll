@@ -15,7 +15,7 @@ Antes de empezar a explicar cómo he ido realizando esta aplicación, quería in
 + El [artículo de David Tang](https://medium.com/dailyjs/techniques-for-decomposing-react-components-e8a1081ef5da) sobre descomposición de Componentes
 + El [workshop de Leonardo García sobre React](https://github.com/leoasis/workshop-pensando-en-react)
 + Y sobre todo, de nuevo, [el tutorial de Devin Abbott React Express](http://www.react.express/)
-+ Añadir también otros muchos recursos que he podido ir utilizando para hacer algunas concretas.
++ Añadir también otros muchos recursos que he podido ir utilizando para hacer algunas cosas concretas.
 
 ---
 
