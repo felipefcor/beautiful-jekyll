@@ -23,10 +23,6 @@ Esta página tiene muy buenos cursos para iniciarse y para ir avanzando. Los cur
 
 Gran recurso con cursos gratuitos y de pago. De momento solo he probado varios gratuitos y la experiencia ha sido más que satisfactoria.
 
-- [Cursos y tutoriales de Zell Liew](https://zellwk.com)
-
-Este autor tiene un recurso muy interesante: el Javascript Road Map, donde te va indicando los pasos que se deberían ir haciendo para aprender Javascript y todas las herramientas de Frontend.
-
 - [Cursos de Mosh Hamedani](https://programmingwithmosh.com/)
 
 Este ha sido mi último descubrimiento. Gran instructor, que explica muy claro y bien y sus cursos son realmente buenos. De momento ya he hecho un curso suyo en Udemy y otro en camino de su propia web de React.
