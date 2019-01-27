@@ -5,7 +5,7 @@ subtitle: Algunas cosas sobre mí
 bigimg: "/img/yellow.jpeg"
 ---
 
-[Sobre mí explayado](#id1)
+[Sobre mí ampliado](#id1)
 
 <br>
 **Sobre mí resumido**
@@ -37,7 +37,7 @@ Las tecnologías que he aprendido y estoy aprendiendo son:
 ----
 <br>
 
-<a name="id1"></a>**Sobre mí explayado**
+<a name="id1"></a>**Sobre mí ampliado**
 
 Me llamo Felipe Fernández y actualmente trabajo como técnico informático, aunque mi foco principal está en el Desarrollo web, en el que me estoy formando desde hace más de un año.
 
