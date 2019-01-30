@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Construir y desplegar un proyecto en React
+title: Construir y desplegar un proyecto en React con Surge
 tags: [npm, React, surge, deploy]
 ---
 ### [Aprende Javascript con MentoringJS - Step 11 ](http://MentoringJS.com)
