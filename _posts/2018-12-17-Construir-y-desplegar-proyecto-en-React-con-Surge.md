@@ -27,7 +27,7 @@ Una vez introducido el nuevo dominio automáticamente se publicará el sitio que
 
 Posteriormente, si se quiere redesplegar el proyecto con más información se puede hacer de manera sencilla [añadiendo el dominio como CNAME en la carpeta del proyecto](https://surge.sh/help/remembering-a-domain) y ejecutando:
 ```
-surge ./
+surge build ./
 ```
 
 Bueno, todo esto lo he realizado y finalmente el resultado ha sido:
