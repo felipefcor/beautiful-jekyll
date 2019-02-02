@@ -10,6 +10,8 @@ El resultado se puede ver desplegado en surge:
 
 [http://react-gallery.surge.sh](http://react-gallery.surge.sh/)
 
+[Repostiorio con el código de la galería de imágenes](https://github.com/felipefcor/Image-gallery-with-React)
+
 Para realizar esta galería de imágenes con React me he basado en el [tutorial de Alex Devero](https://www.linkedin.com/pulse/learn-react-practice-create-stunning-image-gallery-alex-devero/). En este artículo voy a intentar diseccionar dicho artículo y explicar qué he modificado y cómo lo he hecho para crear mi propia galería de imágenes con React.
 
 ---
@@ -533,6 +535,6 @@ closeModal = () => {
 ---
 <br>
 
-Hasta aquí esta revisión de una galería con React y CSS. Ha sido una muy buena experiencia en la que he aprendido mucho. También he visto las posibilidades que tiene React para generar aplicaciones de este estilo con un código muy compacto y con una gran posibilidad de reutilización de componentes y escalabilidad de la aplicación. 
+Hasta aquí esta revisión de una galería con React y CSS. Ha sido una muy buena experiencia en la que he aprendido mucho. También he visto las posibilidades que tiene React para generar aplicaciones de este estilo con un código muy compacto y con una gran posibilidad de reutilización de componentes y escalabilidad de la aplicación.
 
 <br>
