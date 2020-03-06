@@ -8,7 +8,7 @@ En [programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%
 
 ![Domination](/img/doctor-maligno.jpeg)
 
-### Qué es Object Calisthenics
+### ¿Qué es Object Calisthenics?
 
 Es un conjunto de 9 reglas creadas por Jeff Bay en un artículo que formó parte de una antología. En el siguiente [enlace](https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf) se puede acceder al artículo concreto gracias a la difusión de la Universidad de Helsinki.
 
