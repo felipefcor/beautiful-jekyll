@@ -1,14 +1,12 @@
 ---
 layout: null
 ---
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display');
 @import url("pygment_highlights.css");
 
 /* --- General --- */
 
 body {
-  /*font-family: 'Lora', 'Times New Roman', serif;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
