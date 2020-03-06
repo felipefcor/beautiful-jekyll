@@ -30,6 +30,10 @@ Después de eso, decidí hacer un cambio en mi vida y enrolarme en el Bootcamp d
 - Mongoose
 - Babel
 - Deploying (Surge y Heroku)
-
+- Java
+- OOP
+- TDD
+- Design OOP
+- DDD
 
 
