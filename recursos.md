@@ -19,10 +19,6 @@ Fue la primera en la que me fijé para hacer un curso de Frontend. Hay grandes c
 
 Esta página tiene muy buenos cursos para iniciarse y para ir avanzando. Los cursos tienen un formato interactivo y te obligan a escribir y teclear código. En esta plataforma hice un curso de [HTML y CSS](https://felipefcor.github.io/2018-04-08-Curso-HTML-y-CSS-en-codeacadamy/) y también otros, incluído uno de Javascript.
 
-- [Cursos de Wes Bos](https://wesbos.com/courses/)
-
-Gran recurso con cursos gratuitos y de pago. De momento solo he probado varios gratuitos y la experiencia ha sido más que satisfactoria.
-
 - [Cursos de Mosh Hamedani](https://programmingwithmosh.com/)
 
 Este ha sido mi último descubrimiento. Gran instructor, que explica muy claro y bien y sus cursos son realmente buenos. De momento ya he hecho un curso suyo en Udemy y otro en camino de su propia web de React.
