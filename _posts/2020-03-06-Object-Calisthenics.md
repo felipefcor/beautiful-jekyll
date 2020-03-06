@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Object Calisthenics
+title: ¿Dominará el mundo Object Calisthenics?
 tags: [java, Object Calisthenics, TDD, OOP, Design]
 ---
-#### ¿Dominará el mundo Object Calisthenics?
 
-En la [programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos)(OOP) existen varias reglas, principios y teorías que nos ayudan con el diseño de nuestras aplicaciones. Una de estas es Object Calisthenics, herramienta básica en nuestro objetivo de dominación mundial.
+En [programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos)(OOP) existen varias reglas, principios y teorías que nos ayudan con el diseño de nuestras aplicaciones. Una de estas es Object Calisthenics, herramienta básica en nuestro objetivo de dominación mundial.
 
 ![Domination](/img/doctor-maligno.jpeg)
 
