@@ -26,6 +26,7 @@ Para crear estas 9 reglas, dicho autor se basó en algunos patrones de diseño e
 - Testeabilidad (Código que sea testeable)
 - Legibilidad (Código que sea fácil de entender)
 - Foco 
+
 ---
 
 ### Las 9 reglas
@@ -39,6 +40,7 @@ Para crear estas 9 reglas, dicho autor se basó en algunos patrones de diseño e
 - No abreviar
 - No más de dos variables de instancia por clase
 - No getters ni setters
+
 ---
 
 ![Rules](https://i.pinimg.com/originals/31/a5/6c/31a56c6d1531d882d20c6281f29618b9.jpg)
@@ -73,6 +75,7 @@ class Board {
     }
 }
 ```
+<br>
 
 #### 2. No usar la palabra reservada ELSE
 
@@ -91,6 +94,7 @@ public void login(String username, String password) {
     }
 }
 ```
+<br>
 
 #### 3. Mantén las entidades pequeñas
 
@@ -98,6 +102,7 @@ Todos nos hemos encontrado con clases y/o métodos larguísimos, con infinidad d
 En estos casos, después de salir del asombro, nos quedamos pensando qué hace esa clase o método y hasta que pasan unos minutos u horas no lo acabamos de entender. 
 Por eso, para mejorar la legibilidad y mantenibilidad de nuestro código es importante mantener las entidades lo más pequeñas, compactas y entendibles posibles para que el próximo que venga (incluso nuestro yo futuro) lo entienda lo antes posible.
 
+<br>
 
 #### 4. Envolver los primitivos y strings
 
@@ -126,10 +131,13 @@ throw new RuntimeException();
 NaturalNumber number = new NaturalNumber(8);
 ```
 
+<br>
+
 #### 5. Envolver las colecciones en clases
 
 Este caso es muy parecido al anterior, ya que al final una lista es otro tipo de variable muy parecida a primitivos y Strings. Además, se le añade que normalmente con las listas se realizan varias acciones como añadir y sacar elementos de dicha lista. Una posible solución sería similar a la anterior, encapsular la lista en una clase (llamada First Class Collection), con lo que ganaríamos en cohesión ya que se añade el comportamiento de dicha colección como métodos de la misma.
 
+<br>
 
 #### 6. Un punto por línea
 
@@ -159,12 +167,14 @@ class Board {
 
 ```
 
+<br>
+
 #### 7. No abreviar
 
 Otro caso muy significativo que, por desgracia es muy frecuente, es el caso de los nombres de variables, métodos y clases abreviados. Cuando nos encontramos estos casos nos damos cuenta que es muy difícil de leer y entender ese código ya que necesitamos ver el código varias veces para entenderlo. 
 Por todo ello, es altamente recomendable poner nombres con sentido, incluso si son muy largos. Además, si se hacen largos, nos dará visibilidad sobre si ese método o clase tiene más de una responsabilidad pudiendo así dividirlo en varios métodos o clases. Con esto mejoraríamos o cumpliríamos con el principio de única responsabilidad.
 
-
+<br>
 
 #### 8. No más de dos variables de instancia por clase
 
@@ -195,10 +205,7 @@ class GivenNames {
 }
 ```
 
-Posibles soluciones:
-> Limitar el número de variables de instancia lo mínimo y agrupando por responsabilidades 
-
-
+<br>
 
 #### 9. No getters ni setters
 
