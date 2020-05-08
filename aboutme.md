@@ -1,6 +1,6 @@
 <br>
 
-Me llamo Felipe Fernández y actualmente trabajo como Software Engineer para Lifull Connect. Ahora mismo, estoy en proceso de aprendizaje a través de un programa ofrecido por [Cokaido](https://cokaido.com/). Este programa se enfoca a las buenas prácticas en programación orientada a objetos. 
+Me llamo Felipe Fernández y soy programador. Después de haber realizado dos formaciones intensas e intensiva durante los últimos 10 meses, una con [Skylab](skylabcoders.com) y otra con [Cokaido](https://cokaido.com/) me puedo considerar programador Full Stack. 
 
 Mi formación es variopinta. Para empezar, hace unos años hice un ciclo formativo de grado superior de Desarrollo de aplicaciones informáticas (DAI). Eso me sirvió para iniciarme en el mundo de la programación. Después, tras pasar por una carrera de letras que me ayudó a formarme como persona, empecé a trabajar en una empresa de alojamiento web y dominios. Fue una experiencia gratificante que me enseño muchísimas cosas. 
 
@@ -31,8 +31,7 @@ Después de eso, decidí hacer un cambio en mi vida y enrolarme en el Bootcamp d
 - Babel
 - Deploying (Surge y Heroku)
 
-En la actualidad estoy trabajando con lenguajes orientados a objetos y con buenas prácticas. 
-Las tecnologías con las que he trabajado son:
+Con [Cokaido](https://cokaido.com/) estos últimos meses he realizado un programa que se enfoca a las buenas prácticas en programación orientada a objetos. Las tecnologías con las que he trabajado son:
 
 - Java
 - TDD (Inside Out & Outside in)
@@ -42,3 +41,5 @@ Las tecnologías con las que he trabajado son:
 - SOLID
 - Mocking
 - DDD
+
+Todas estas tecnologías son muy importantes pero lo más importante de este aprendizaje creo que ha sido hacerme consciente de cómo se puede crear un buen código a través de una metodología de buenas prácticas con el fundamento del desarrollo guíado por test (TDD).
