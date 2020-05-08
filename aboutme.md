@@ -6,7 +6,7 @@ Mi formación es variopinta. Para empezar, hace unos años hice un ciclo formati
 
 Posteriormente, continúe en el sector en otra empresa similar con un rol de soporte se segundo nivel y con muchas tareas de técnico de sistemas. Durante esa etapa de más de un año y medio estuve compaginando el trabajo con formación autodidacta y con la ayuda de un proyecto de mentorizaje que encontré en internet y me llamó la atención: [Mentoringjs](http://mentoringjs.com/). Además de mentoringjs también estuve aprendiendo de otros recursos y por otros canales y fuentes. Todos los recursos de que utilicé están en mi sección de [recursos](https://felipefcor.github.io/recursos).
 
-Después de eso, decidí hacer un cambio en mi vida y enrolarme en el Bootcamp de FullStack developer de [Skylab Coders en Barcelona](skylabcoders.com). Durante el bootcamp puedo decir que he aprendido muchas tecnologías, tanto a nivel de Frontend como de Backend. De manera resumida, podría decir que he practicado y aprendido las siguientes tecnologías:
+Después de eso, decidí hacer un cambio en mi vida y enrolarme en el Bootcamp de FullStack developer de [Skylab Coders en Barcelona](skylabcoders.com). Durante el bootcamp puedo decir que aprendí muchas tecnologías del ecosistema Javascript, tanto a nivel de Frontend como de Backend. De manera resumida, podría decir que he utilizado y aprendido las siguientes tecnologías:
 
 
 - HTML
@@ -29,7 +29,7 @@ Después de eso, decidí hacer un cambio en mi vida y enrolarme en el Bootcamp d
 - MongoDB
 - Mongoose
 - Babel
-- Deploying (Surge y Heroku)
+- Deploying (Surge con React y Heroku para NodeJS)
 
 Con [Cokaido](https://cokaido.com/) estos últimos meses he realizado un programa que se enfoca a las buenas prácticas en programación orientada a objetos. Las tecnologías con las que he trabajado son:
 
