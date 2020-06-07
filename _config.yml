@@ -39,13 +39,13 @@ navbar-links:
   #  - Cursos de Wes Bos: "https://wesbos.com/courses/"
   #  - Cursos y tutoriales de Zell Liew: "https://zellwk.com"   
   #  - Cursos de Mosh Hamedani: "https://programmingwithmosh.com/"
-  Sobre mí: "aboutme"
+  #Sobre mí: "aboutme"
 
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/felipeavatar.jpg"
+#avatar: "/img/felipeavatar.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
