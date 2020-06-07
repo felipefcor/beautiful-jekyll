@@ -15,7 +15,7 @@ baseurl: ""
 
 # Name of website
 
-title: Blog de Felipe Fernández	
+title: Blog de programación 	
 title-img: "/img/home-solid.svg"
 
 # Short description of your site
@@ -85,7 +85,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   #rss: true
-  email: "felipefcor@gmail.com"
+  #email: "felipefcor@gmail.com"
 #  facebook: daattali
   github: felipefcor
   twitter: felipefcor_
